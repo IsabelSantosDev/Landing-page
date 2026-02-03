@@ -4,7 +4,7 @@ const whatsappBtn = document.getElementById('whatsappBtn');
 const phoneNumber = '5511990035200';
 
 // Mensagem automática
-const message = 'Olá! Gostaria de solicitar um orçamento para um site.';
+const message = 'Olá! Gostaria de solicitar um orçamento para criar um site.';
 
 whatsappBtn.addEventListener('click', function () {
   const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
